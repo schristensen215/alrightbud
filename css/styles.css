@@ -156,6 +156,9 @@ a:hover{
 .bandcamp-link{
   margin: 33px 100px 0 100px;
 }
+.bandcamp-link:hover{
+  background-color: black;
+}
 
 .shows-table{
   width: 700px;
