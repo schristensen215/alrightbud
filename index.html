@@ -1,42 +1,98 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Soren's Practice Website</title>
-    <link href="https://fonts.googleapis.com/css?family=Cedarville+Cursive|Montserrat|Roboto+Slab&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
-  </head>
-  <body>
-    <div class="top-container">
-      <a class = "alright-bud" href = "index.html">alright, bud.</a>
-      <a class = "top-links" href="shows.html">Shows</a>
-      <a class = "top-links" href="https://www.amazon.com/">Merch</a>
-      <a class = "top-links" href="mailto:alrightbud@gmail.com">Contact</a>
+
+<head>
+  <meta charset="utf-8">
+  <title>Alright Bud</title>
+
+  <!-- Bootstrap and CSS file -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Cedarville+Cursive|Montserrat|Roboto+Slab&display=swap" rel="stylesheet">
+
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/53df82f062.js" crossorigin="anonymous"></script>
+
+  <!-- Jquery Bootstrap scripts -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <section id="title">
+
+<!-- Navbar -->
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
+        <a class="navbar-brand" href="index.html">alright, bud</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="shows.html">Shows</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="https://www.amazon.com/">Merch</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="mailto:alrightbud@gmail.com">Contact</a>
+            </li>
+          </ul>
+
+        </div>
+      </nav>
     </div>
+  </section>
 
 
-    <div class="middle-container">
-      <img class = "soren-playing-img" src="images/Soren-hollow-home.jpg" alt="soren-img">
-      <div class = "middle-content-container">
-        <h2 class = "middle-content">rdy 2 prty</h2>
-        <img class = "demo-days-cover middle-content" src="images/demo-days-cover.jpg" alt="demo-days-cover">
-        <p class = "middle-content">alright, bud. gets back to the emo basics and brings you back to your high school angsty days. In 2020, lead songwriter Soren Christensen worked with local Portland producer Ned Rich to put together alright bud.'s first EP, Demo Days. From there the band has gone on tour blah, blah, blah. Lorem ipsum dolor sit amet, doming aliquam pertinacia cu usu. Te pri natum liberavisse, ius ut appetere torquatos. At has choro oblique patrioque. Id mucius erroribus sea, in ludus docendi pertinax nec, ea mea dico expetendis. Ipsum audiam nam no, mel eu assum quaeque interesset.</p>
-        <p class = "middle-content">Cu eam mandamus splendide, alia justo nam an. Habeo graeci inermis id usu. Vel ei appareat insolens, senserit definitionem et vis. Eos maiorum ponderum scriptorem ea, an recusabo inciderint pro. Eam ex nibh facilisis, per in denique corrumpit iracundia. Stet ponderum reprimique pri at.</p>
-        <br>
-        <br>
-        <br>
-        <h3 class = "middle-content">Tunes</h3>
-        <iframe class = "bandcamp-player" style="border: 0; width: 1000px; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/track=3614543383/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://halfyearsun.bandcamp.com/track/empty-den">Empty Den by Half Year Sun</a></iframe>
+  <section id="middle">
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-6 middle-section-img">
+          <img class="img-fluid align-middle" src="images\Soren-hollow-home.jpg" alt="">
+        </div>
+        <div class="col-lg-6 middle-section-text">
+          <h1 class="rdy-text">rdy 2 prty</h1>
+          <p><strong>alright, bud.</strong> gets back to the emo basics and brings you back to your high school angsty days. In 2020, lead songwriter Soren Christensen worked with local Portland producer Ned Rich to put together alright bud.'s first EP, Demo Days.
+            From there the band has gone on tour blah, blah, blah. Lorem ipsum dolor sit amet, doming aliquam pertinacia cu usu. Te pri natum liberavisse, ius ut appetere torquatos. At has choro oblique patrioque. </p>
+          <h1 class = "tunes-text">tunes</h1>
+          <iframe class="bandcamp-player img-fluid" style="border: 0; width: 500px; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/track=3614543383/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/"
+            seamless><a href="http://halfyearsun.bandcamp.com/track/empty-den">Empty Den by Half Year Sun</a></iframe>
+        </div>
       </div>
 
     </div>
-    <div class="bottom-container">
-      <iframe class = "spotify-link" src="https://open.spotify.com/follow/1/?uri=spotify:artist:6sFIWsNpZYqfjUpaCgueju&size=detail&theme=dark" width="300" height="56" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="true"></iframe>
-      <a class = "apple-link" href="https://geo.music.apple.com/us/artist/greet-death/1255262837?mt=1&app=music&ls=1" style="display:inline-block;overflow:hidden;background:url(https://tools.applemusic.com/en-us/lockup.svg?kind=artist&bubble=apple_music&style=standard-white) no-repeat;width:140px;height:30px;"></a>
-      <a class = "bandcamp-link" href="https://halfyearsun.bandcamp.com/releases">
-        <img class = "bandcamp-img" src="images/bandcamp-logotype-light-128.png" alt="bandcamp-link">
-      </a>
-      <p class = "copyright">© 2020 Soren Christensen.</p>
+
+
     </div>
-  </body>
+
+  </section>
+
+  <section id="footer">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-4 col-sm-4">
+          <a href="#"><i class="fab fa-spotify fa-2x"></i></a>
+        </div>
+        <div class="col-lg-4 col-sm-4">
+          <a href="#"><i class="fab fa-itunes fa-2x"></i></a>
+        </div>
+        <div class="col-lg-4 col-sm-4">
+          <a href="#"><i class="fab fa-bandcamp fa-2x"></i></a>
+        </div>
+      </div>
+      <p class = "copyright">Copyright by Soren Christensen 2020</p>
+    </div>
+  </section>
+</body>
+
 </html>

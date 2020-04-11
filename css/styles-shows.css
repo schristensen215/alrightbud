@@ -17,6 +17,15 @@ p{
   line-height: 1.5;
 }
 
+table{
+  width:100%;
+}
+
+th, td{
+  height: 60px;
+  font-size: 1.25rem;
+}
+
 .container-fluid{
   background-color: black;
   padding: 7% 15% 0;
@@ -56,15 +65,13 @@ p{
 
 
 .middle-section-img{
-  padding-right: 10px;
   background-color: black;
-  border-right: 10px solid white;
-  margin-left: -10px;
+  border-left: 10px solid white;
 }
 
 .middle-section-text{
   background-color: black;
-  padding: 3%;
+  padding: 4%;
 }
 
 .rdy-text{
@@ -90,6 +97,8 @@ p{
     padding: 5% 10%;
   }
 }
+
+
 
 /* Footer Section */
 
